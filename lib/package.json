@@ -1,0 +1,10 @@
+{
+    "name": "riak-hello-world"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+       "express": "3.x"
+      ,"bliss":"1.0.1"
+      ,"riak-js":"0.9.1"
+  }
+}
