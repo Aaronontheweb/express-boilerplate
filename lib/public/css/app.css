@@ -1,0 +1,33 @@
+/* ################# BEGIN NAVIGATION ################# */
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+
+/* Override the navbar container to make it's width fixed at 960 pixels (which also happens to center the content as an added bonus) */
+.navbar-inner .container {
+    width: 980px;
+}
+
+
+/* ################# BEGIN CONTENT ################# */
+
+#content .container{
+    width:980px;
+}
+
+/* ################# BEGIN FOOTER ################# */
+
+#footer .container{
+    width:980px;
+}
+
+.footerbox {
+    font-family: 'Muli', sans-serif;
+    color: #999;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 12px;
+}

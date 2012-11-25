@@ -7,16 +7,14 @@ html
         include partials/styles
     include partials/jquery
     body
-      .container
+    block navbar
+        include partials/navbar
+    section#content
+        .container
             .row
-                .span12
-                    a(href='/')
-                        h1 Home
-            #body
-            .row
-                .span12
-                    footer
-                        Copyright Somebody
-        block scripts
-            script(src='/js/bootstrap.min.js')
-            script(src='https://ajax.aspnetcdn.com/ajax/knockout/knockout-2.1.0.js')
+                block content
+    block footer
+        include partials/footer
+    block scripts
+        script(src='/js/bootstrap.min.js')
+        script(src='https://ajax.aspnetcdn.com/ajax/knockout/knockout-2.1.0.js')
