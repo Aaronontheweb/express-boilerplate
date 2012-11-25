@@ -26,3 +26,5 @@ local_package*
 
 #Ignore IISNode stuff
 *.debug
+
+*.DS_Store
