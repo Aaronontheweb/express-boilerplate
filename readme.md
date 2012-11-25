@@ -18,10 +18,12 @@ Here's what you need to do to get up-and-running with Express boilerplate, all y
 1. [Install Node.JS and NPM][2]
 1. Run the command below:
 
+	````
 	$ git clone git@github.com:Aaronontheweb/express-boilerplate.git
 	$ cd express-boilerplate\lib
 	$ npm install
 	$ node server.js
+	````
 
 And that should automatically fire up the initial Express Boilerplate template :)
 
