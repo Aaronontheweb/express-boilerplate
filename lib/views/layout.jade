@@ -1,0 +1,22 @@
+!!! 5
+html
+    head
+    meta(name="viewport", content="width=device-width")
+    title= title
+    block styles
+        include partials/styles
+    include partials/jquery
+    body
+      .container
+            .row
+                .span12
+                    a(href='/')
+                        h1 Home
+            #body
+            .row
+                .span12
+                    footer
+                        Copyright Somebody
+        block scripts
+            script(src='/js/bootstrap.min.js')
+            script(src='https://ajax.aspnetcdn.com/ajax/knockout/knockout-2.1.0.js')
